@@ -1,0 +1,15 @@
+## #1 approach
+
+```
+python -m venv myenv
+source myenv/bin/activate
+pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
+```
+
+Note: specific versions are used in requirements.txt to avoid conflicts
+
+
+## #2 approach
+
+Using virtualenv (pip install virtualenv)
